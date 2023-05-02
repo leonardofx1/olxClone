@@ -4,7 +4,6 @@ import  * as C from './headerStyled';
 
 import logo from'../../img/logo.png'
 const Header = () => {
-console.log(C)
     return (
         <C.Head> 
             <C.logo__Olx src={logo}/>
