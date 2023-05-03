@@ -1,6 +1,6 @@
 import React from 'react'
 import {BsSearch } from 'react-icons/bs';
-import { TfiBasketball}1from "react-icons/tfi";
+import { TfiBasketball}from "react-icons/tfi";
 
 
 
