@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
- export const Head = styled.header `
+export const Head = styled.header`
         width:100%;
         height:90px;
         background-color:#ffffff;
@@ -9,7 +9,7 @@ import styled from 'styled-components'
         align-items: center;
         padding:1rem;
 `
-export const Wrapper = styled.div `
+export const Wrapper = styled.div`
     width: 60%;
     display: flex;
     justify-content: space-evenly;
@@ -18,13 +18,13 @@ export const Wrapper = styled.div `
 
 `
 
-export const logo__Olx = styled.img `
+export const logo__Olx = styled.img`
     height:60px;
     width:60px;
     border-radius:50%;
     margin: 15px;
 `
-export const Link = styled.a `
+export const Link = styled.a`
     font-weight: 300;
     transition:all 200ms ease-in-out;
     color:#4a4a4a;
@@ -53,7 +53,7 @@ export const Btn__header = styled.button`
     }
 `
 
-export const Btn__desapegar = styled(Btn__header) `
+export const Btn__desapegar = styled(Btn__header)`
     color:white;
     background-color: orange;
     box-shadow: none;
