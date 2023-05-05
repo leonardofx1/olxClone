@@ -43,5 +43,10 @@ export const Form = styled.form `
 ` 
 export const Nav =  styled.nav `
     width: 70%;
-    height: auto;   
+    height: auto;  
+    & ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    } 
 `

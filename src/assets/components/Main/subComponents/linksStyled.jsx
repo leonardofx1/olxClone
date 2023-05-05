@@ -28,6 +28,7 @@ export const Ancora = styled.a `
     height: 100%;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     & small {
         margin-top: 10px;
         color: white;

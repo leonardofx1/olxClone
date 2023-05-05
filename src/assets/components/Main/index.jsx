@@ -1,6 +1,9 @@
 import React from 'react'
+
 import {BsSearch } from 'react-icons/bs';
-import { TfiBasketball}from "react-icons/tfi";
+import { TfiBasketball, TfiCar}from "react-icons/tfi";
+import {BsHouseDoor, BsPhone, BsLightbulb, BsMusicNoteBeamed} from 'react-icons/bs';
+import {MdOutlineBadge} from 'react-icons/md'
 
 
 
@@ -18,7 +21,13 @@ const Main = () => {
                </C.Form>
                 <C.Nav>
                     <ul>
-                        <Links icon={<TfiBasketball/>} desc={'Esportes e Lazer'} />
+                        <Links icon={<TfiBasketball/>} desc='Esportes e Lazer' />
+                        <Links icon={<BsHouseDoor/>} desc='Imóveis' />
+                        <Links icon={<TfiCar/>} desc='Autos Peças' />
+                        <Links icon={<BsPhone/>} desc='Eletrônicos e Celulares' />
+                        <Links icon={<MdOutlineBadge/>} desc='Vagas de Emprego' />
+                        <Links icon={<BsLightbulb />} desc='Para sua Casa'/>
+                        <Links icon={<BsMusicNoteBeamed />} desc='Músicas e Hobbies' />
                     </ul>
                     </C.Nav>
             </C.Section>
