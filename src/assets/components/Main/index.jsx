@@ -3,12 +3,14 @@ import React from 'react'
 import {BsSearch } from 'react-icons/bs';
 import { TfiBasketball, TfiCar}from "react-icons/tfi";
 import {BsHouseDoor, BsPhone, BsLightbulb, BsMusicNoteBeamed} from 'react-icons/bs';
-import {MdOutlineBadge} from 'react-icons/md'
+import {MdOutlineBadge} from 'react-icons/md';
+import {AiOutlineFormatPainter} from 'react-icons/ai'
 
 
 
 import * as C from './mainStyled'
-import Links from './subComponents/LinksMain';
+import Links from '../subComponents/LinksMain/LinksMain';
+import  Anuncios  from '../Anuncios';
 
 const Main = () => {    
 
@@ -28,9 +30,11 @@ const Main = () => {
                         <Links icon={<MdOutlineBadge/>} desc='Vagas de Emprego' />
                         <Links icon={<BsLightbulb />} desc='Para sua Casa'/>
                         <Links icon={<BsMusicNoteBeamed />} desc='Músicas e Hobbies' />
+                        <Links icon={<AiOutlineFormatPainter />} desc='serviços' />
                     </ul>
                     </C.Nav>
             </C.Section>
+            <Anuncios />
            </C.Main>
     )
 

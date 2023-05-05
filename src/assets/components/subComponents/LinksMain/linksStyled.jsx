@@ -4,8 +4,7 @@ import styled from "styled-components"
 export const Li = styled.li `
     display: flex;
     height: 97px;
-    width: 91px;
-   
+    width: 91px; 
 `
 
 export const SpaanIcon = styled.span `
