@@ -9,7 +9,9 @@ const Anuncios = () => {
             <A.ContainerTitulo>
             <h2>Anúncios recentes</h2>
             </A.ContainerTitulo>
-            <CardCorpo />
+            <A.Section>
+                <CardCorpo />
+            </A.Section>
         </A.Anuncios>
     )
 }
